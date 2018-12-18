@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	height: 100%;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+	
+}
+
+#logos{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+.logo a{
+	margin: 0 auto;
+}
+
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-top: 50px;
+	display: flex;
+	text-transform: uppercase;
+
+}
+
+.menu li{
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+.menu a{
+	color: black;
+}
+
+.menu a:hover{
+	color: grey;
+	text-decoration: none;
+	border: none;
+}
+
+.titles h1{
+	padding: 0;
+	margin: 0;
+}
+
+.titles{
+	display: block;
+	margin-top: 30px;
+	height: 350px;
+	background: url(../img/3.jpg) no-repeat center top / cover;
+}
+
+.title{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top:130px;
+}
+
+.title h1{
+	font-size: 70px;
+}
+
+.button_title{
+	background: #fed136;
+	color:#485543;
+	border-radius: 3px;
+	display:block;
+	width: 200px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+
+.button_title:hover{
+	text-decoration: none;
+	border: none;
+	color: grey;
+}
+
+.items{
+	margin-top: 50px;
+}
+
+.items a{
+	color: black;
+}
+
+.items a:hover{
+	text-decoration: none;
+	border: none;
+	color: grey;
+}
+
+.item img:hower{
+	margin-top: 20px;
+}
+
+#item{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button{
+	background: #fed136;
+	color:#485543;
+	border-radius: 3px;
+	display:block;
+	width: 140px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+
+.footer{
+	background: #1e2126;
+	display: block;
+	height: 100%;
+	margin-top:50px;
+	padding-bottom:60px;
+}
+
+.pay{
+	display: block;
+	margin:0 auto;
+}
+
+.footer h1{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
